@@ -34,11 +34,11 @@ const DropDownLanguages = () => (
     }}
     trigger={["click"]}
   >
-    <a onClick={(e) => e.preventDefault()}>
+    <div onClick={(e) => e.preventDefault()} >
       <Space>
         <TranslationOutlined style={{ fontSize: "24px" }} />{" "}
       </Space>
-    </a>
+    </div>
   </Dropdown>
 );
 export default DropDownLanguages;
