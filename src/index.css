@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--base-font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:var(--Classic_Elegance-color);
+  color: var(--Cream-color);
+}
+html {
+  font-size: 16px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PrincessSofia";
+  src: url("./fonts/PrincessSofia/PrincessSofia-Regular.ttf") format("truetype");
+}
+/*End_Fonts*/
+
+:root {
+  /*Colors*/
+  --Classic_Elegance-color: #333333;
+  --Cream-color: #fffff0;
+  --Gold-color: #d4af37;
+
+  /*Fonts*/
+
+  --base-font-family: "Poppins";
+  --bold-font-weight: "PoppinsBold";
+  --special-hand-font-family: "PrincessSofia";
+
+
+}
+
+/*Here are some common media queries you can use in your CSS to adapt your web app for various screen sizes*/
+
+/*Small screens (phones in portrait orientation)*/
+@media screen and (max-width: 576px) {
+  /* CSS rules for small screens */
+}
+
+/*Small screens (phones in landscape orientation):*/
+@media screen and (max-width: 576px) and (orientation: landscape) {
+  /* CSS rules for small landscape screens */
+}
+
+/*Medium screens (tablets):*/
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  /* CSS rules for medium screens (tablets) */
+}
+/*Large screens (desktops):*/
+@media screen and (min-width: 1025px) {
+  /* CSS rules for large screens (desktops) */
 }

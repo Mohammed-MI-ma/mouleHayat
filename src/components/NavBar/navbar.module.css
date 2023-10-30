@@ -1,0 +1,17 @@
+/* navbar.module.css */
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 1.75rem; /* Apply a left margin of 28px in rem units (assuming 1rem = 16px) */
+    margin-top: 2.75rem; /* Apply a top margin of 44px in rem units (assuming 1rem = 16px) */
+  }
+  
+  .logoText {
+    /* Add additional styling for the logo text here */
+    font-size: 2rem; /* Set the font size to 32px in rem units (assuming 1rem = 16px) */
+    font-family: var(--special-hand-font-family);
+}
+.languageIcon {
+  margin-left: auto; /* Push the icon to the right */
+  margin-right: 1.75rem;
+}

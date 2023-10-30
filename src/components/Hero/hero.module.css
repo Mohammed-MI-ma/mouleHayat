@@ -1,0 +1,16 @@
+/* navbar.module.css */
+.creativityWebTitle {
+  font-family: var(--bold-font-weight);
+  font-size: 3.2rem;
+  }
+  .ownerInfo {
+    text-align: center;
+  }
+  
+  .ownerName {
+    text-decoration: underline;
+  }
+  
+  .ownerJob {
+
+  }
