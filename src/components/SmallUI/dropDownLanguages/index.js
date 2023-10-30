@@ -5,28 +5,24 @@ import an from "../../assets/svg/gb.svg";
 import { Avatar, Dropdown, Space } from "antd";
 import { TranslationOutlined } from "@ant-design/icons";
 
+import style from "./dropDown.module.css"
+
 const items = [
   {
     label: (
-      <a>
-        <Space>
-
-          <Avatar src={<img src={fr} alt="avatar" />} />
-          <span>Francais</span>
-        </Space>
-      </a>
+      <Space>
+        <Avatar src={<img src={fr} alt="avatar" />} />
+        <span className={style.lang}>Francais</span>
+      </Space>
     ),
     key: "0",
   },
   {
     label: (
-      <a>
-        <Space>
-  
-          <Avatar src={<img src={an} alt="avatar" />} />
-          <span>Anglais</span>
-        </Space>
-      </a>
+      <Space>
+        <Avatar src={<img src={an} alt="avatar" />} />
+        <span className={style.lang} >Anglais</span>
+      </Space>
     ),
     key: "1",
   },
