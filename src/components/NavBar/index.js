@@ -1,5 +1,4 @@
 import React from "react";
-import { TrademarkCircleOutlined } from "@ant-design/icons";
 
 import style from "./navbar.module.css";
 import DropDownLanguages from "../SmallUI/dropDownLanguages";
@@ -8,6 +7,7 @@ import logoImage from "../assets/png/logo.png"; // Replace with the actual path 
 
 const NavBar = () => {
   return (
+    <>
     <div className={`container ${style.logoContainer}`}>
       <div className={style.logoText}>
         <div style={{ position: "relative" }}>
@@ -36,7 +36,7 @@ const NavBar = () => {
       <Button className={style.languageIcon}>
         <DropDownLanguages />
       </Button>
-    </div>
+    </div></>
   );
 };
 
