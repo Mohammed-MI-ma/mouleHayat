@@ -70,6 +70,6 @@ code {
 
 /**/
 :where(.css-dev-only-do-not-override-qgg3xn).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
-  color: #000000;
-  border-color: #000000;
+  color: #000000!important;
+  border-color: #000000!important;
 }

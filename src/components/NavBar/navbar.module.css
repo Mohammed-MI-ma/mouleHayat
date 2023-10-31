@@ -8,8 +8,11 @@
 
 .logoText {
   /* Add additional styling for the logo text here */
-  font-size: 2rem; /* 2rem (32px / 16px) */
+  font-size: 1.5rem; /* 2rem (32px / 16px) */
   font-family: var(--special-hand-font-family);
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
 }
 
 .languageIcon {
@@ -18,7 +21,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
   width: 3.125em; /* 50px / 16px */
   height: 3.125em; /* 50px / 16px */
   background-color: #777777;
