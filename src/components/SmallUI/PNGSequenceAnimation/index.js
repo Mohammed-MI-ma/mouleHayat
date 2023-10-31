@@ -17,10 +17,6 @@ const PNGSequenceAnimation = () => {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-
-    // Add ScrollTrigger animations to control the sequence based on scroll position
-
-    // Update the current frame state as the user scrolls
     ScrollTrigger.create({
       trigger: ".animation-container",
       start: "top center",
@@ -29,7 +25,7 @@ const PNGSequenceAnimation = () => {
         setCurrentFrame(Math.round(self.progress * (images.length - 1)));
       },
     });
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="animation-container">

@@ -3,7 +3,7 @@ import React from "react";
 import style from "./navbar.module.css";
 import DropDownLanguages from "../SmallUI/dropDownLanguages";
 import { Button, Image } from "antd";
-import logoImage from "../assets/png/logo.png"; // Replace with the actual path to your logo image
+import logoImage from "../assets/svg/image.svg"; // Replace with the actual path to your logo image
 
 const NavBar = () => {
   return (
@@ -12,28 +12,15 @@ const NavBar = () => {
         <div
           className={` animate__animated animate__slideInLeft ${style.logoText}`}
         >
-          <div style={{ position: "relative" }}>
+          <div >
             <Image
               src={logoImage}
               alt="Logo"
               preview={false}
-              style={{ width: "120px" }}
+              style={{width:"250px"}}
             />
-            <div
-              style={{
-                borderRadius: " 50%",
-                background: "white",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: " 0",
-                left: "0",
-                transform: " translate(20px, 20px)",
-                zIndex: "-1",
-              }}
-            ></div>
+           
           </div>
-          Hayat.Moul
         </div>
         <Button
           className={` animate__animated animate__slideInRight ${style.languageIcon}`}
