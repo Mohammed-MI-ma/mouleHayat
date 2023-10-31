@@ -1,17 +1,28 @@
 /* navbar.module.css */
 .logoContainer {
-    display: flex;
-    align-items: center;
-    margin-left: 1.75rem; /* Apply a left margin of 28px in rem units (assuming 1rem = 16px) */
-    margin-top: 2.75rem; /* Apply a top margin of 44px in rem units (assuming 1rem = 16px) */
-  }
-  
-  .logoText {
-    /* Add additional styling for the logo text here */
-    font-size: 2rem; /* Set the font size to 32px in rem units (assuming 1rem = 16px) */
-    font-family: var(--special-hand-font-family);
+  display: flex;
+  align-items: center;
+  margin-left: 1.75rem; /* 1.75rem (28px / 16px) */
+  margin-top: 2.75rem; /* 2.75rem (44px / 16px) */
 }
+
+.logoText {
+  /* Add additional styling for the logo text here */
+  font-size: 2rem; /* 2rem (32px / 16px) */
+  font-family: var(--special-hand-font-family);
+}
+
 .languageIcon {
   margin-left: auto; /* Push the icon to the right */
-  margin-right: 1.75rem;
+  margin-right: 1.75rem; /* 1.75rem (28px / 16px) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 3.125em; /* 50px / 16px */
+  height: 3.125em; /* 50px / 16px */
+  background-color: #777777;
+  color: rgb(255 255 255 / 88%);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  border: none;
 }

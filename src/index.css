@@ -65,3 +65,11 @@ code {
 @media screen and (min-width: 1025px) {
   /* CSS rules for large screens (desktops) */
 }
+
+
+
+/**/
+:where(.css-dev-only-do-not-override-qgg3xn).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #000000;
+  border-color: #000000;
+}
