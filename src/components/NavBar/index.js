@@ -9,7 +9,9 @@ const NavBar = () => {
   return (
     <>
       <div className={`container ${style.logoContainer}`}>
-        <div className={style.logoText}>
+        <div
+          className={` animate__animated animate__slideInLeft ${style.logoText}`}
+        >
           <div style={{ position: "relative" }}>
             <Image
               src={logoImage}
@@ -31,10 +33,11 @@ const NavBar = () => {
               }}
             ></div>
           </div>
-          HayatMoul
+          Hayat.Moul
         </div>
-
-        <Button className={style.languageIcon}>
+        <Button
+          className={` animate__animated animate__slideInRight ${style.languageIcon}`}
+        >
           <DropDownLanguages />
         </Button>
       </div>
