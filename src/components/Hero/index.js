@@ -33,12 +33,15 @@ const HeroWithSuspense = () => {
 
   return (
     <Suspense fallback={<LoadingFallback />}>
-      <div className={`container ${style.logoContainer}`}>
-        <span>{t("abstractArt")}</span>
-        <span>{t("oilPaintings")}</span>
-        <span>{t("landscapes")}</span>
-        <span>{t("sculpture")} </span>
+      <div style={{marginTop:"125px"}}></div>
+      <div className={`container ${style.logoContainer}`} >
+
+        <span style={{textTransform:"uppercase"}}>{t("abstractArt")}</span>
+        <span style={{textTransform:"uppercase"}}>{t("oilPaintings")}</span>
+        <span style={{textTransform:"uppercase"}}>{t("landscapes")}</span>
+        <span style={{textTransform:"uppercase"}}>{t("sculpture")} </span>
       </div>
+
       <Hero />
       <Image src={img} alt="Animation Frame" width={"75vw"}/>
     </Suspense>
