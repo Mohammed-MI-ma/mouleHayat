@@ -1,16 +1,15 @@
 /* navbar.module.css */
-.creativityWebTitle {
+.creativityWebSubTitle {
   font-family: var(--bold-font-weight);
   font-size: 1.2rem;
   text-align: center;
 
   }
-  .ownerInfo {
-    text-align: center;
-  }
+
   
-  .ownerName {
-    text-decoration: underline;
+  .description {
+    max-width: 75vw;
+    font-size: 0.75rem;
   }
   
   .logoContainer span{
