@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 import { Drawer } from "antd";
 import { SiInformatica } from "react-icons/si";
@@ -13,7 +12,6 @@ const AboutMeComponent = () => {
     setOpen(false);
   };
 
-  const { t } = useTranslation();
 
   return (
     <>

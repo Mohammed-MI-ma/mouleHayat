@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 import { Drawer } from "antd";
 import { LiaDonateSolid } from "react-icons/lia";
@@ -14,7 +13,6 @@ const DonationComponent = () => {
     setOpen(false);
   };
 
-  const { t } = useTranslation();
 
   return (
     <>
