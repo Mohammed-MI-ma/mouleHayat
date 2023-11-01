@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { Drawer } from "antd";
-import { SiInformatica } from "react-icons/si";
+import { LiaDonateSolid } from "react-icons/lia";
 
-const AboutMeComponent = () => {
+
+const DonationComponent = () => {
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
     setOpen(true);
@@ -18,17 +19,19 @@ const AboutMeComponent = () => {
   return (
     <>
       <div onClick={(e) => showDrawer()}>
-        <SiInformatica style={{ fontSize: "24px" }} />{" "}
+        <LiaDonateSolid style={{ fontSize: "24px" }} />{" "}
       </div>
       <Drawer
-        title="Profile"
-        placement={"right"}
+        title="Donat"
+        placement={"bottom"}
         onClose={onClose}
         open={open}
-        width={"100%"}
+        width={"50%"}
         key={"right"}
-      ></Drawer>
+      >
+       
+      </Drawer>
     </>
   );
 };
-export default AboutMeComponent;
+export default DonationComponent;

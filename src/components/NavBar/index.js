@@ -5,6 +5,7 @@ import DropDownLanguages from "../SmallUI/dropDownLanguages";
 import { Button, Image } from "antd";
 import logoImage from "../assets/png/logo1.png"; // Replace with the actual path to your logo image
 import AboutMeComponent from "../SmallUI/aboutMeComponent";
+import DonationComponent from "../SmallUI/donationComponent";
 
 const NavBar = () => {
   return (
@@ -22,17 +23,19 @@ const NavBar = () => {
             />
           </div>
         </div>
-        <div     className={`animate__animated animate__slideInRight ${style.menuContainer}`}>
-        <Button
-          className={`${style.languageIcon}`}
+        <div
+          className={`animate__animated animate__slideInRight ${style.menuContainer}`}
         >
-          <DropDownLanguages />
-        </Button>
-        <Button
-          className={`${style.languageIcon}`}
-        >
-          <AboutMeComponent />
-        </Button></div>
+          <Button className={`${style.languageIcon}`}>
+            <DropDownLanguages />
+          </Button>
+          <Button className={`${style.languageIcon}`}>
+            <DonationComponent />
+          </Button>
+          <Button className={`${style.languageIcon}`}>
+            <AboutMeComponent />
+          </Button>
+        </div>
       </div>
     </>
   );

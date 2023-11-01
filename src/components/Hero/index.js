@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import style from "./hero.module.css";
-import img from "../assets/png/horses.JPG"
+import img from "../assets/png/horses.JPG";
 import { Image } from "antd";
 
 const Hero = () => {
@@ -14,7 +14,8 @@ const Hero = () => {
         <div className="col-md-6">
           <p className={style.creativityWebTitle}>{t("creativityWebTitle")}</p>
           <p className={style.ownerInfo}>
-            <span className={style.ownerName}>{t("Owner")}</span>&nbsp;,<span className={style.ownerJob}>{t("Job")}</span>
+            <span className={style.ownerName}>{t("Owner")}</span>&nbsp;,
+            <span className={style.ownerJob}>{t("Job")}</span>
           </p>{" "}
         </div>
         {/* Add your other content here */}
@@ -28,8 +29,16 @@ const LoadingFallback = () => {
 };
 
 const HeroWithSuspense = () => {
+  const { t } = useTranslation();
+
   return (
     <Suspense fallback={<LoadingFallback />}>
+      <div className={`container ${style.logoContainer}`}>
+        <span>{t("abstractArt")}</span>
+        <span>{t("oilPaintings")}</span>
+        <span>{t("landscapes")}</span>
+        <span>{t("sculpture")} </span>
+      </div>
       <Hero />
       <Image src={img} alt="Animation Frame" />
     </Suspense>

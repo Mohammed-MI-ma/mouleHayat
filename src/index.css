@@ -46,11 +46,23 @@ code {
 }
 
 /*Here are some common media queries you can use in your CSS to adapt your web app for various screen sizes*/
-
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
 /*Small screens (phones in portrait orientation)*/
 @media screen and (max-width: 576px) {
-  /* CSS rules for small screens */
-}
+  .container {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container span {
+    margin: 10px 0;
+  }}
 
 /*Small screens (phones in landscape orientation):*/
 @media screen and (max-width: 576px) and (orientation: landscape) {
