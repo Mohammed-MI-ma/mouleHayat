@@ -1,10 +1,8 @@
 import React, { Suspense } from "react";
-import { useTranslation } from "react-i18next";
 import style from "./login.module.css";
 
 
 const LoginComponent = () => {
-  const { t } = useTranslation();
 
   return (
     <div className="container">
