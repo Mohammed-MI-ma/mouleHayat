@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import style from "./hero.module.css";
-import img from "../assets/png/about.jpg";
+import img from "../assets/png/about.jpeg";
 import { Image } from "antd";
 
 const Hero = () => {

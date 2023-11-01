@@ -30,6 +30,7 @@ const NavBar = () => {
           <AboutMeComponent />
         </Button>
       </div>
+  
     </div>
   );
 };
