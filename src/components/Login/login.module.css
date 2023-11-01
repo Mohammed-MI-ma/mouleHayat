@@ -3,15 +3,21 @@
   font-family: var(--bold-font-weight);
   font-size: 1.2rem;
   text-align: center;
+}
 
-  }
+.description {
+  max-width: 75vw;
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
 
-  
-  .description {
-    max-width: 75vw;
-    font-size: 0.75rem;
-  }
-  
-  .logoContainer span{
-    font-size: 13px;
-  }
+.linkSignUp {
+  padding: 2rem;
+  text-decoration: underline;
+  font-family:var(--bold-font-weight);
+}
+.linkSignIn{
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  font-family:var(--bold-font-weight);
+}

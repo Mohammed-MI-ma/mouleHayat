@@ -8,16 +8,17 @@ const LoginComponent = () => {
         {/* For small screens: Two columns */}
         <div className="col-md-6">
           <p className={style.creativityWebSubTitle}>
-            Explorez les meilleures<br/> créations pour vous.
+            Explorez les meilleures
+            <br /> créations pour vous.
           </p>
-          
-            <div className={style.description}>
-              Utiliser notre application ne se limite pas à être un simple
-              utilisateur. c'est devenir un membre spécial de notre communauté.
-            </div>
-    
+
+          <div className={style.description}>
+            Utiliser notre application ne se limite pas à être un simple
+            utilisateur. c'est devenir un membre spécial de notre communauté.
+          </div>
         </div>
-        {/* Add your other content here */}
+        <div className={style.linkSignUp}>Inscrivez-vous gratuitement</div>
+        <div className={style.linkSignIn}>Se connecter</div>
       </div>
     </div>
   );
