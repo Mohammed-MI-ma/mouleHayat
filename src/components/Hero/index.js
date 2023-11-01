@@ -1,6 +1,8 @@
 import React, { Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import style from "./hero.module.css";
+import img from "../assets/png/horses.JPG"
+import { Image } from "antd";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -29,6 +31,7 @@ const HeroWithSuspense = () => {
   return (
     <Suspense fallback={<LoadingFallback />}>
       <Hero />
+      <Image src={img} alt="Animation Frame" />
     </Suspense>
   );
 };

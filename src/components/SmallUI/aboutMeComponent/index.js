@@ -4,11 +4,11 @@ import an from "../../assets/svg/gb.svg";
 import { useTranslation } from "react-i18next";
 
 import { Avatar, Dropdown, Space } from "antd";
-import { MdGTranslate } from "react-icons/md";
+import { SiInformatica } from "react-icons/si";
 
-import style from "./dropDown.module.css";
+import style from "./aboutMe.module.css";
 
-const DropDownLanguages = () => {
+const AboutMeComponent = () => {
   const { t } = useTranslation();
   const items = [
     {
@@ -38,9 +38,9 @@ const DropDownLanguages = () => {
       trigger={["click"]}
     >
       <div onClick={(e) => e.preventDefault()}>
-          <MdGTranslate style={{ fontSize: "24px" }} />{" "}
+          <SiInformatica style={{ fontSize: "24px" }} />{" "}
       </div>
     </Dropdown>
   );
 };
-export default DropDownLanguages;
+export default AboutMeComponent;

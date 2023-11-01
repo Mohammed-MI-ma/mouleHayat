@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   margin-left: 1.75rem; /* 1.75rem (28px / 16px) */
-  margin-top: 2.75rem; /* 2.75rem (44px / 16px) */
 }
 
 .logoText {
@@ -16,10 +15,8 @@
 }
 
 .languageIcon {
-  margin-left: auto; /* Push the icon to the right */
-  margin-right: 1.75rem; /* 1.75rem (28px / 16px) */
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 3.125em; /* 50px / 16px */
   height: 3.125em; /* 50px / 16px */
@@ -27,4 +24,13 @@
   color: rgb(255 255 255 / 88%);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
   border: none;
+  border-radius: 50%;
+}
+.menuContainer {
+  margin-left: auto; /* Push the icon to the right */
+  margin-right: 1.75rem; /* 1.75rem (28px / 16px) */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap:10px
 }
