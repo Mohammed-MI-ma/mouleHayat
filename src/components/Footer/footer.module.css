@@ -1,23 +1,17 @@
-/* navbar.module.css */
-.creativityWebSubTitle {
-  font-family: var(--bold-font-weight);
-  font-size: 1.2rem;
-  text-align: center;
-}
+.container{
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
 
-.description {
-  max-width: 75vw;
-  font-size: 0.75rem;
-  opacity: 0.75;
 }
-
-.linkSignUp {
-  padding: 2rem;
-  text-decoration: underline;
-  font-family:var(--bold-font-weight);
-}
-.linkSignIn{
-  margin-top: 2rem;
-  font-size: 0.75rem;
-  font-family:var(--bold-font-weight);
+.socialNetworks{
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
 }
