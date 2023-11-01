@@ -43,7 +43,7 @@ const HeroWithSuspense = () => {
       </div>
 
       <Hero />
-      <Image src={img} alt="Animation Frame" width={"75vw"}/>
+      <Image src={img} alt="Animation Frame" />
     </Suspense>
   );
 };
