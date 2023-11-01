@@ -40,7 +40,7 @@ const HeroWithSuspense = () => {
         <span>{t("sculpture")} </span>
       </div>
       <Hero />
-      <Image src={img} alt="Animation Frame" />
+      <Image src={img} alt="Animation Frame" width={"75vw"}/>
     </Suspense>
   );
 };

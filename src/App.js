@@ -1,5 +1,6 @@
 import './App.css';
-import Hero from './components/Hero';
+import HeroWithSuspense from './components/Hero';
+import LoginWithSuspense from './components/Login';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Hero/>
+      <HeroWithSuspense/>
+      <LoginWithSuspense/>
     </div>
   );
 }
