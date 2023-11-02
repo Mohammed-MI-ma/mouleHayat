@@ -2,19 +2,18 @@
 .creativityWebTitle {
   font-family: var(--bold-font-weight);
   font-size: 2.2rem;
-  }
-  .ownerInfo {
-    text-align: center;
-    font-size: .75rem;
 
+}
+.ownerInfo {
+  text-align: center;
+  font-size: 0.75rem;
+}
 
-  }
-  
-  .ownerName {
-    text-decoration: underline;
-  }
-  
-  .logoContainer span{
-    font-size: 13px;
-    opacity: 0.9;
-  }
+.ownerName {
+  text-decoration: underline;
+}
+
+.logoContainer span {
+  font-size: 13px;
+  opacity: 0.9;
+}

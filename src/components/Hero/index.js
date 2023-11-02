@@ -8,7 +8,15 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div
+      className="container"
+      style={{
+        padding: "58px",
+        paddingLeft: "0",
+        paddingRight: 0,
+        maxWidth: "350px",
+      }}
+    >
       <div className="row">
         {/* For small screens: Two columns */}
         <div className="col-md-6">
@@ -33,9 +41,8 @@ const HeroWithSuspense = () => {
 
   return (
     <Suspense fallback={<LoadingFallback />}>
-      <div style={{marginTop:"125px"}}></div>
-      <div className={`container ${style.logoContainer}`} >
-
+      <div style={{ marginTop: "125px" }}></div>
+      <div className={`container ${style.logoContainer}`}>
         <span>{t("abstractArt")}</span>
         <span>{t("oilPaintings")}</span>
         <span>{t("landscapes")}</span>
@@ -43,7 +50,7 @@ const HeroWithSuspense = () => {
       </div>
 
       <Hero />
-      <Image src={img} alt="Animation Frame" />
+      <Image src={img} alt="Animation Frame" preview={false} />
     </Suspense>
   );
 };

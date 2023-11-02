@@ -1,11 +1,15 @@
 {
   "creativityWebTitle": "'Dévoiler la Toile de la Créativité'",
-  "Owner":"Moulehiawi Hayat",
-  "Job":"Artiste Peintre",
-  "french":"Francais",
-  "english":"Anglais",
-  "abstractArt":"Abstrait",
-  "oilPaintings":"Imressionisme",
-  "landscapes":"Portrait",
-  "sculpture":"Cubisme"
+  "Owner": "Moulehiawi Hayat",
+  "Job": "Artiste Peintre",
+  "french": "Francais",
+  "english": "Anglais",
+  "abstractArt": "Abstrait",
+  "oilPaintings": "Imressionisme",
+  "landscapes": "Portrait",
+  "sculpture": "Cubisme",
+  "exploreText": "Explorez les meilleures créations pour vous.",
+  "exploreDesc": "Utiliser notre application ne se limite pas à être un simple utilisateur. C'est devenir un membre spécial de notre communauté."
+  ,"accessGranted": "Vous pouvez parcourir le site, regarder ce que vous voulez et tester ce que vous voulez à tout moment, y compris la réalité augmentée (AR)."
+
 }

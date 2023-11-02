@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'; // Update the import
 import 'animate.css';
 
 import './index.css';
@@ -13,7 +13,7 @@ i18n
   .use(Backend)
   .use(LanguageDetector)
   .init({
-    fallbackLng: 'fr',
+   // fallbackLng: 'fr',
     debug: true,
     interpolation: {
       escapeValue: false, // not needed for React
@@ -27,12 +27,11 @@ i18n
       },
     },
   });
-
-ReactDOM.render(
-  <I18nextProvider i18n={i18n}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </I18nextProvider>,
-  document.getElementById('root')
-);
+  const root = createRoot(document.getElementById('root'));
+  root.render(
+    <I18nextProvider i18n={i18n}>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </I18nextProvider>
+  );

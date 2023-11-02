@@ -1,13 +1,14 @@
 {
   "creativityWebTitle": "'Unveiling the Web of Creativity'",
-  "Owner":"Moulehiawi Hayat",
-  "Job":"Painter",
-  "french":"French",
-  "english":"English",
-  "abstractArt":"Abstract",
-  "oilPaintings":"Impressionism",
-  "landscapes":"Portrait",
-  "sculpture":"Cubism"
+  "Owner": "Moulehiawi Hayat",
+  "Job": "Painter",
+  "french": "French",
+  "english": "English",
+  "abstractArt": "Abstract",
+  "oilPaintings": "Impressionism",
+  "landscapes": "Portrait",
+  "sculpture": "Cubism",
+  "exploreText": "Explore the best creations for you.",
+  "exploreDesc": "Using our application is not limited to being a simple user. It's about becoming a special member of our community.",
+  "accessGranted": "You can browse the site, watch whatever you want, and test whatever you want at any time, even augmented reality (AR). You'll need an account only if you want to add items to your cart and make purchases."
 }
-
-  
