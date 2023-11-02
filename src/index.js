@@ -19,8 +19,8 @@ i18n
       escapeValue: false, // not needed for React
     },
     resources: {
-      en: {
-        translation: require('./i18n/en/translation.json'),
+      an: {
+        translation: require('./i18n/an/translation.json'),
       },
       fr: {
         translation: require('./i18n/fr/translation.json'),
